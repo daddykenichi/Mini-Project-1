@@ -1,0 +1,101 @@
+
+body {
+    background-image: url(../assets/supportbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #383838;
+    background-blend-mode: multiply;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFC;
+}
+  
+
+.accordion {
+    margin-top: 20px;
+}
+  
+.accordion-section {
+    margin-bottom: 20px;
+}
+  
+.accordion-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+  
+.accordion-button {
+    background-color: #050c0f;
+    color: #FFFFFC;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-align: left;
+}
+  
+.accordion-button:hover,
+.accordion-button:focus {
+    background-color: #050c0f;
+}
+  
+.accordion-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+  
+.accordion-header {
+    background-color: #FFFFFC;
+    padding: 10px 20px;
+}
+  
+.accordion-body {
+    padding: 20px;
+    background-color: #050c0f;
+}
+  .accordion-body p {
+    color: #FFFFFC;
+}
+  
+p {
+    margin-bottom: 10px;
+}
+  
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+
+.sat {
+    position: relative;
+    height: 100vh;
+
+}
+  
+.sat-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    color: #fff;
+}
+  
+.sat-content h2 {
+    font-size: 36px;
+     margin-bottom: 20px;
+}
+  
+.space-content p {
+    font-size: 18px;
+    line-height: 1.5;
+}

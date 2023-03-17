@@ -1,0 +1,50 @@
+body {
+    background-image: url(../assets/hero-three.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #383838;
+    background-blend-mode: multiply;
+}
+
+
+#order form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #order h2 {
+    margin-top: 20px;
+    color: #FFFFFC;
+    text-transform: uppercase;
+  }
+  
+  #order label {
+    display: block;
+    margin-bottom: 10px;
+    color: #FFFFFC;
+  }
+  
+  #order input[type="text"],
+  #order input[type="email"],
+  #order input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #order input[type="submit"] {
+    background-color: #AB2346;
+    color: #FFFFFC;
+    border: none;
+    border-radius: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0062cc;
+}

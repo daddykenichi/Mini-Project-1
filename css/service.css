@@ -1,0 +1,112 @@
+html, body {
+    font-size: 14px;
+}
+
+#tech {
+    background-image: url(../assets/spacesatellite1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #383838;
+    background-blend-mode: multiply;
+}
+
+#tech .container {
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#tech .container h1, p {
+    color: #FFFFFC;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#tech .container h1 {
+    letter-spacing: 1.6px;  
+    font-size: 3rem;
+}
+
+#tech .container p {
+    letter-spacing: 0.6px;
+    font-size: 13px;
+}
+
+.tech1 {
+    background-color: #000000;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.tech1 h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FFFFFC;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.tech1 p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-transform: none;
+}
+
+.full-width-image {
+    width: 100vw;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
+#techno .carousel-caption {
+    bottom: 200px;
+    z-index: 2;
+}
+
+#techno .carousel-caption h5 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 200;
+    margin-top: 25px;
+}
+
+#techno  .carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 14px;
+    line-height: 1.9;
+    font-weight: 200;
+}
+
+.space {
+    position: relative;
+    height: 100vh;
+    background-image: url(../assets/spcxlaunch.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #383838;
+    background-blend-mode: multiply;
+}
+  
+.space-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    color: #fff;
+}
+  
+.space-content h2 {
+    font-size: 36px;
+     margin-bottom: 20px;
+}
+  
+.space-content p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+  
