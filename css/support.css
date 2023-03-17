@@ -29,8 +29,8 @@ body {
 }
   
 .accordion-button {
-    background-color: #050c0f;
-    color: #FFFFFC;
+    background-color: #FFFFFC;
+    color: #050c0f;
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
@@ -42,12 +42,12 @@ body {
   
 .accordion-button:hover,
 .accordion-button:focus {
-    background-color: #050c0f;
+    background-color: #FFFFFC;
 }
   
 .accordion-item {
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 0px;
     overflow: hidden;
 }
   
